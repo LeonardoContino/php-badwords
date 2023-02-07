@@ -11,12 +11,13 @@
    <form action="result.php" method="GET">
     <div class="mb-3">
         <label for="badword" class="form-label">parola da censurare</label>
-        <input type="text" class="form-control" id="badword" placeholder="parola da censurare">
+        <input type="text" class="form-control" id="badword" placeholder="parola da censurare" name="badword">
       </div>
       <div class="mb-3">
         <label for="paragraph" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="paragraph" rows="3"></textarea>
+        <textarea class="form-control" id="paragraph" name="paragraph" rows="3"></textarea>
       </div>
+      <button class="btn btn-primary">invia</button>
    </form>
 </body>
 </html>
